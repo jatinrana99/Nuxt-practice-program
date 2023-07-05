@@ -9,11 +9,14 @@
         
         <NuxtLayout name="guestlayout">
             <h1>Hello from Main Page</h1>
+            <Todo/>
         </NuxtLayout>
     </div>
 </template>
 
 <script setup>
+// import Todo from 'components/Todo.vue';
+
 // useHead({
 //     title : "Nuxt 3 Practice",
 //     meta:[{name: "Demo" , content: "Nuxt 3 practice demo program"} , 
